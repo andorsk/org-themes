@@ -8,8 +8,8 @@ h4,
 h5,
 h6,
 legend {
-  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
-  font-weight: 700;
+  font-family: "Courier New", Consolas, monospace;
+  color: #0f0; /* Green text */
   margin-top: 0;
 }
 
@@ -58,16 +58,16 @@ html {
 }
 
 body {
-  background: black;
-  color: #404040;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  background: #000; /* Black background */
+  color: #0f0; /* Green text */
+  font-family: "Courier New", Consolas, monospace; /* Monospace font */
   font-weight: normal;
   margin: 0;
   min-height: 100%;
 }
 
 #content {
-  background: black;
+  background: green;
   margin-left: 300px;
   /* margin:auto; */
   max-width: 800px;
@@ -87,8 +87,8 @@ strong {
 }
 
 blockquote {
-  background-color: #f0f0f0;
-  border-left: 5px solid #cccccc;
+  background-color: gray;
+  border-left: 5px solid green;
   font-style: italic;
   line-height: 24px;
   margin: 0px 0px 24px 0px;
@@ -366,7 +366,7 @@ dl dd {
 }
 
 code {
-  background: #fff;
+  background: black;
   border: solid 1px #e1e4e5;
   /* color:#000;  for clickable code */
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
@@ -408,7 +408,7 @@ code {
 .codeblock,
 pre.src,
 #content .literal-block {
-  border: 1px solid #e1e4e5;
+  border: 1px solid green;
   padding: 12px;
   overflow-x: auto;
   background: #fff;
@@ -418,10 +418,7 @@ pre.src,
 pre.src {
   /* color:#404040; */
   display: block;
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
-    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
-    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
-    monospace;
+  font-family: "Courier New", Consolas, monospace;
   font-size: 12px;
   line-height: 1.5;
   margin: 1px 0px 24px 0px;
@@ -431,7 +428,7 @@ pre.src {
 }
 
 .example {
-  background: #f3f6f6;
+  background: black;
   border: 1px solid #e1e4e5;
   color: #404040;
   font-size: 12px;
@@ -446,7 +443,7 @@ table {
   border-spacing: 0;
   empty-cells: show;
   margin-bottom: 24px;
-  border-bottom: 1px solid #e1e4e5;
+  border-bottom: 1px solid green;
 }
 
 td {
@@ -459,8 +456,8 @@ table th {
   margin: 0;
   overflow: visible;
   padding: 8px 16px;
-  background-color: white;
-  border: 1px solid #e1e4e5;
+  background-color: black;
+  border: 1px solid green;
 }
 
 table thead th {
@@ -777,7 +774,7 @@ a #content .admonition-title,
 
 .wy-alert-title,
 #content .admonition-title {
-  color: #fff;
+  color: black;
   font-weight: bold;
   display: block;
   color: #fff;
@@ -930,7 +927,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #e1e4e5;
+  border-top: 1px solid green;
   margin: 24px 0;
   padding: 0;
 }
