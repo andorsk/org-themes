@@ -15,6 +15,7 @@ legend {
 
 h1 {
   font-size: 175%;
+  color: #00ff00; 
   text-align: left !important;
   margin-bottom: 0.83em !important;
 }
@@ -24,22 +25,27 @@ h1 {
 }
 
 h2 {
+  color: #00ff00; 
   font-size: 150%;
 }
 
 h3 {
+  color: #00ff00; 
   font-size: 125%;
 }
 
 h4 {
+  color: #00ff00; 
   font-size: 115%;
 }
 
 h5 {
+  color: #00ff00; 
   font-size: 110%;
 }
 
 h6 {
+  color: #00ff00; 
   font-size: 100%;
 }
 
