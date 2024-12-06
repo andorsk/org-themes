@@ -391,12 +391,16 @@ code {
   position: relative;
 }
 
+svg {
+  color: #00ff00;
+}
+
 .codeblock-example:after {
   content: "Example";
   position: absolute;
   top: 0px;
   left: 0px;
-  background: #9b59b6;
+  background: #00ff00;
   color: black;
   padding: 6px 12px;
 }
@@ -909,7 +913,7 @@ a:hover {
 }
 
 a:visited {
-  color: #9b59b6;
+  color: #00ff00;
 }
 
 .left {
