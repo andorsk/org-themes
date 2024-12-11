@@ -971,7 +971,7 @@ hr {
 }
 
 #table-of-contents li.current {
-  background: #00ff00;
+  background: transparent;
 }
 
 #table-of-contents li.current a {
