@@ -525,6 +525,7 @@ table tr:nth-child(2n) td {
 
   #table-of-contents h2 a {
     display: block;
+    color: #3091d1;
   }
 
   #table-of-contents:target {
@@ -913,7 +914,7 @@ a:hover {
 }
 
 a:visited {
-  color: #00ff00;
+  color: #3091d1;
 }
 
 .left {
